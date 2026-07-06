@@ -1,5 +1,5 @@
 context:
-  version: "1.5.1"
+  version: "1.5.2"
 
 package:
   name: grpcui
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/fullstorydev/grpcui/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: a997fd21e56cfa60fbf42d423693a958683589fee2d69d2167ee7c9018f64939
+  sha256: 43e127082396b1ea11f4687a6f69555579b34501538e7ca361c9db35e486139d
   target_directory: src
 
 build:
